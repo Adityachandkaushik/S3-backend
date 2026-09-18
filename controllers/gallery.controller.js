@@ -5,7 +5,7 @@ import Gallery from "../models/Gallery.model.js";
 export const addGallery = async (req, res) => {
   try {
     const imgs = req.files.map(f => ({ path: "/uploads/gallery/" + f.filename }));
-
+    
     const g = await Gallery.create({
       title: req.body.title,
       location: req.body.location,
