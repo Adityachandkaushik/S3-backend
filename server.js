@@ -6,7 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 import volunteerRoutes from "./routes/volunteer.routes.js";
-import authRoutes from "./routes/auth.routes.js";
+import authRoutes from "./routes/auth.routes.js";    
 import donationRoutes from "./routes/donation.routes.js";
 import dashboardRoutes from "./routes/dashboard.routes.js";
 import galleryRoutes from "./routes/gallery.routes.js";
