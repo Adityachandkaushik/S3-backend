@@ -7,7 +7,7 @@ export const createVolunteer = async (req, res) => {
 
 export const getVolunteers = async (req, res) => {
   const data = await Volunteer.find().sort({ _id: -1 });
-  res.json(data);
+  res.json(data);         
 };
 
 export const updateStatus = async (req, res) => {
